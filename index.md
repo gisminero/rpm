@@ -36,180 +36,56 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+# Introducción a la plataforma y arquitectura
+En el presente proyecto se trabaja con la 
+## Que es DNN
+DNN o DotNetNuke ([Referencia](https://www.tododnn.com/Recursos/-Que-es-DNN)), es un entorno de código de abierto ideal para crear, distribuir y gestionar aplicaciones web interactivas, intranets y extranets. Algunas caracteristicas son:
+* Amigable para el usuario
+* Potente
+* Rico en características
+* Con Soporte Técnico
+* Fácilmente instalable
+* Multi-Idioma 
+* Código Abierto
+* Vanguardista
+* Extensible
+* Reconocido
 
-## Lista de directorios desestimados
-## .gitignore
-Referencia a la herramienta para backup de bd [link](https://docs.microsoft.com/en-us/sql/tools/bcp-utility?redirectedfrom=MSDN&view=sql-server-ver15)
-bcp "dbo.EventLog" out c:\data\copia.txt -S "DESKTOP-BRKRA5N\SQLEXPRESS" -d DNNBD -U "" -P ""  -c  -T
-## Path genreal<br>
-├───admin // uso interno <br>
-│   ├───Containers<br>
-│   ├───Menus<br>
-│   │   ├───DNNActions<br>
-│   │   ├───DNNAdmin<br>
-│   │   └───ModuleActions<br>
-│   │       └───images<br>
-│   ├───Modules<br>
-│   │   └───App_LocalResources<br>
-│   ├───Portal<br>
-│   │   └───App_LocalResources<br>
-│   ├───Sales<br>
-│   ├───Security<br>
-│   │   └───App_LocalResources<br>
-│   ├───Skins<br>
-│   │   └───App_LocalResources<br>
-│   ├───Tabs<br>
-│   │   └───App_LocalResources<br>
-│   └───Users<br>
-│       └───App_LocalResources<br>
-├───App_Browsers //Uso interno<br>
-├───App_Data<br>
-│   ├───ClientDependency<br>
-│   ├───**ExportImport**  //Importante-------------------------<br>
-│   │   └───2020-10-27_21-00-42<br>
-│   ├───ExtensionPackages<br>
-│   ├───FipsCompilanceAssemblies<br>
-│   ├───RadSpell<br>
-│   ├───Search<br>
-│   ├───_imagecache<br>
-│   └───_ipcount<br>
-|   └─── **archivos de base de datos** // Importante<br>
-├───App_GlobalResources //uso interno<br>
-├───bin //uso interno<br>
-│   └───Providers<br>
-├───Components //uso interno<br>
-│   └───ResourceInstaller<br>
-├───Config // PREGUNTAR<br>
-│   ├───Backup_202007272303<br>
-│   └───Backup_202007272307<br>
-├───controls //uso interno<br>
-│   ├───App_LocalResources<br>
-│   └───CountryListBox<br>
-│       └───Data<br>
-├───DesktopModules //uso interno<br>
-│   ├───Admin<br>
-│   │   ├───Authentication<br>
-│   │   ├───Console<br>
-│   │   ├───Dnn.EditBar<br>
-│   │   ├───Dnn.PersonaBar<br>
-│   │   ├───EditExtension<br>
-│   │   ├───FiftyOneClientCapabilityProvider<br>
-│   │   ├───HtmlEditorManager<br>
-│   │   ├───ModuleCreator<br>
-│   │   ├───Security<br>
-│   │   ├───UrlManagement<br>
-│   │   └───ViewProfile<br>
-│   ├───AuthenticationServices<br>
-│   ├───Connectors<br>
-│   ├───CoreMessaging<br>
-│   ├───DDRMenu<br>
-│   ├───DigitalAssets<br>
-│   ├───HTML<br>
-│   ├───Journal<br>
-│   ├───MemberDirectory<br>
-│   ├───MVC<br>
-│   ├───RazorModules<br>
-│   ├───SiteExportImport<br>
-│   ├───SocialGroups<br>
-│   └───**XModPro** //Importante-------------------------<br>
-│       ├───App_LocalResources<br>
-│       ├───help<br>
-│       ├───images<br>
-│       ├───**plugins** //Importante-------------------------<br>
-│       │   └───passwordstrength<br>
-│       ├───scripts<br>
-│       └───styles<br>
-├───Documentation //uso interno<br>
-├───Icons //uso interno<br>
-│   └───Sigma<br>
-├───images //uso interno<br>
-│   ├───Branding<br>
-│   ├───FileManager<br>
-│   │   ├───files<br>
-│   │   └───Icons<br>
-│   ├───Flags<br>
-│   └───Search<br>
-├───Install //uso interno<br>
-├───js //uso interno<br>
-│   └───Debug<br>
-├───Licenses<br>
-├───**plugins** //Importante-------------------------<br>
-│   └───passwordstrength<br>
-├───**Portals** //Importante-------------------------<br>
-│   ├───0<br>
-│   │   ├───Images<br>
-│   │   ├───Templates<br>
-│   │   └───Users<br>
-│   ├───0-System<br>
-│   │   └───Cache<br>
-│   └───_default<br>
-│       ├───Cache<br>
-│       ├───Config<br>
-│       ├───Containers<br>
-│       │   ├───Xcillion<br>
-│       │   └───_default<br>
-│       ├───EventQueue<br>
-│       ├───Install<br>
-│       ├───Logs<br>
-│       │   └───LogConfig<br>
-│       ├───MergedTemplate<br>
-│       ├───Skins<br>
-│       │   ├───Reflect_Xile_02.04.00_UnzipMeFirst<br>
-│       │   │   └───docs<br>
-│       │   │       └───img<br>
-│       │   ├───Xcillion<br>
-│       │   │   ├───Bootstrap<br>
-│       │   │   │   ├───css<br>
-│       │   │   │   ├───fonts<br>
-│       │   │   │   └───js<br>
-│       │   │   ├───Common<br>
-│       │   │   ├───Css<br>
-│       │   │   ├───Images<br>
-│       │   │   ├───Includes<br>
-│       │   │   ├───Js<br>
-│       │   │   └───Menus<br>
-│       │   │       └───MainMenu<br>
-│       │   └───_default<br>
-│       ├───Smileys<br>
-│       ├───Templates<br>
-│       ├───Users<br>
-│       └───XModPro<br>
-│           ├───Feeds<br>
-│           │   └───0<br>
-│           ├───Forms<br>
-│           │   └───0<br>
-│           └───Templates<br>
-│               └───0<br>
-├───Providers<br>
-│   ├───ClientCapabilityProviders<br>
-│   ├───DataProviders<br>
-│   ├───FolderProviders<br>
-│   ├───HtmlEditorProviders<br>
-│   └───LoggingProviders<br>
-└───Resources<br>
-    ├───ControlPanel<br>
-    ├───Dashboard<br>
-    ├───Libraries<br>
-    │   ├───jQuery<br>
-    │   │   └───03_05_01<br>
-    │   ├───jQuery-Migrate<br>
-    │   │   └───03_02_00<br>
-    │   ├───jQuery-UI<br>
-    │   │   └───01_12_01<br>
-    │   ├───Knockout<br>
-    │   │   └───03_03_00<br>
-    │   ├───Knockout.Mapping<br>
-    │   │   └───02_04_01<br>
-    │   └───Selectize<br>
-    │       └───00_12_06<br>
-    ├───Search<br>
-    └───Shared<br>
-        ├───components<br>
-        │   ├───CodeEditor<br>
-        │   ├───Toast<br>
-        │   ├───Tokeninput<br>
-        │   └───UserFileManager<br>
-        ├───scripts<br>
-        │   ├───jquery<br>
-        │   └───TreeView<br>
-        └───stylesheets
+## Que es Xmod-Pro
+XMod Pro es el unico modulo que te permite construir una aplicacion completa en pocos minutos, completa con la jabilidad de agregar editar, borrar y mostrar tu informacion - todo en un modulo. Agrega tu propio HTML y CSS para armarlo. No necesita pagar modulos para armar formularios ni un modulo de grid. Respaldado por una compañia con 10 años de historia construyendo y dando soporte a modulos de DNN.
+Algunas caracteristicas:
+* Build Complete Applications Fast!
+* Fully Customizable
+* Responsive
+* SQL Server
+* Powerful Features
+* Enhance Other Modules
+* Data-Driven Feeds
+* Bestselling Module for 10+ Years
+* Support and Community
+
+
+https://www.dnndev.com/Products/XModPro
+
+
+## Que relacion tiene dnn con xmood-pro
+XMod-Pro es un modulo que se instala en DNN, siendo a su vez DNN una pagina que se accede desde IIS.
+
+## Conceptos Importantes
+Las soluciones XMod Pro constan de dos componentes fundamentales: **formularios** y **plantillas**. Los formularios se utilizan para agregar y editar datos, mientras que las plantillas se utilizan para mostrar datos. Si bien los formularios y las plantillas generalmente funcionan con los mismos datos, no hay reglas en XMod Pro que requieran que ese sea el caso. Es posible utilizar un formulario y una plantilla en la misma instancia de módulo que operan con datos distintos, aunque la mayoría de las veces estarán vinculados.
+### Feeds
+### Mangager SQL
+### Tokens
+
+## Entiendo la granularidad
+Si ordenamos de mayor a menor granularidad sería así:
+* Sitio
+* Paginas
+* Modulos en general
+* Modulos XmodPro
+* Templates
+* Form
+* 1 Bloque CSS
+* 2 Bloque de formularios
+* 3 Bloque JS o jquery
+* Cada bloque esta formado por tags html o tags del propio módulo
