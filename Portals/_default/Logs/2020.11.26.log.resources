@@ -1,0 +1,1066 @@
+2020-11-26 17:54:13.401-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.459-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.470-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.477-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.486-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.493-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.501-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.510-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.519-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.526-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.535-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.542-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.552-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.559-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.567-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.575-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.585-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.591-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.677-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.687-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.697-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.703-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.712-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.717-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.723-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.728-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.733-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.738-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.742-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.746-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.751-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.755-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.761-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.766-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.770-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.775-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.780-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.784-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.789-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.795-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:13.800-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:13.806-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.040-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.045-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.050-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.055-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.059-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.065-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.070-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.075-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.079-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.084-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.090-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.096-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.101-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.109-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.114-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.119-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.124-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.130-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.135-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.141-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.145-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.151-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.155-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.160-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.164-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.169-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.174-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.179-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.183-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.188-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.193-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.198-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.203-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.210-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.215-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.220-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.225-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.231-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.236-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.241-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:14.246-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:14.252-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.258-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.267-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.282-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.290-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.297-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.307-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.318-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.329-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.339-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.348-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.356-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.368-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.380-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.393-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.401-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.410-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.417-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.430-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.511-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.533-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.548-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.553-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.571-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.571-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.587-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.587-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.666-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.675-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.683-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.684-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.684-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.700-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.709-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.716-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.723-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.730-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.736-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.744-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.752-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.760-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.771-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.779-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.816-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.824-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.833-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.846-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.857-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.866-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.868-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.868-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.883-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.883-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.899-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Sites.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.899-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.914-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.914-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.930-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.930-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.946-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.AdminLogs.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.946-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.962-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.962-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.977-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.977-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:15.993-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.TaskScheduler.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:15.993-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.008-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.008-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.024-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.039-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.057-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.CssEditor.MenuControllers.AdminMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.066-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.080-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.099-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.112-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.127-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.134-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.SqlConsole.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.143-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.149-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.159-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.167-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.176-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.183-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] DotNetNuke.Framework.Reflection - Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController, Dnn.PersonaBar.Extensions
+System.TypeLoadException: No se puede cargar el tipo 'Dnn.PersonaBar.Licensing.MenuControllers.HostMenuController' del ensamblado'Dnn.PersonaBar.Extensions'.
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   en System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   en System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   en DotNetNuke.Framework.Reflection.CreateType(String TypeName, String CacheKey, Boolean UseCache, Boolean IgnoreErrors)
+2020-11-26 17:54:16.191-03:00 [DESKTOP-BRKRA5N][D:2][T:6][ERROR] Dnn.PersonaBar.Library.Controllers.PersonaBarController - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: type
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en Dnn.PersonaBar.Library.Controllers.PersonaBarController.GetMenuItemController(MenuItem menuItem)
+2020-11-26 17:54:16.419-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: Se canceló una tarea.
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2020-11-26 17:54:16.604-03:00 [DESKTOP-BRKRA5N][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: Se canceló una tarea.
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
