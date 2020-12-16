@@ -31,14 +31,23 @@
     </style> 
      <script type="text/javascript" src="http://localhost/dnn/DesktopModules/XModPro/plugins/passwordstrength/pwstrength-bootstrap.min.js"></script> 
   </ScriptBlock>
-  
-  <SubmitCommand />
+  <!--
+    Mio empieza
+  -->
+  <SubmitCommand CommandText="SELECT getdate() AS Start"/>
+  <SubmitCommand CommandText="XMP_Join" CommandType="StoredProcedure">
+    <Parameter Name="Start" />
+    <Parameter Name="ERROR" DataType="String" Size="250" Direction="Output" />
+  </SubmitCommand>
+  <!--
+    Mio termina
+  -->
 
   <div class="join-form">
     
     <div class="form-group">
       <label for="Username">Username <em>5-30 characters - no spaces or special characters</em></label> 
-      <Textbox ID="Username" name="diegoinput" DataField="Username" CssClass="form-control required-field" DataType="String" autocomplete="off" />
+      <Textbox ID="Username" DataField="Username" CssClass="form-control required-field" DataType="String" autocomplete="off" />
       <Validate Type="required" CssClass="validate-error" Target="Username" Text="Required" Message="Username is required." />
       <Validate Type="regex" CssClass="validate-error" Target="Username" Text="5-30 characters - no spaces or special characters" Message="Username must be between 5-30 characters and cannot contain spaces or special characters." ValidationExpression="^[a-z0-9_-_@_-_A-Z]{5,30}$" />
       <div class="alert alert-danger" id="username_exists" style="margin-top: 10px; ">
@@ -82,27 +91,29 @@
         </p>
       </div>
     </div>
+    
     <div class="form-group">
       <label for="Firstname">Firstname - This is to stop false registrations - Do not fill in</label> 
       <Textbox ID="Firstname" DataField="Firstname" DataType="String" Nullable="True" autocomplete="off" />
       <Validate Type="regex" Target="Firstname" Text="Invalid" ValidationExpression="^\s*$" />      
     </div>
+    
     <div class="form-group">
       <CheckBox Id="Agree" DataField="Agree" DataType="Boolean"></CheckBox> <span><strong>I agree to the <a href="/terms" target="_blank">Terms and Conditions</a></strong></span>
       <Validate Type="checkbox" CssClass="validate-error" Target="Agree" Text="Required" Message="You must agree to the terms and conditions." />
     </div>
     
+
     
     <ValidationSummary CssClass="alert alert-warning" Id="JoinValidate" DisplayMode="BulletList" HeaderText="Please correct the following errors:" />
     
-    <AddButton CssClass="btn btn-primary btn-block" Text="Create My Account" Redirect="/loguin" RedirectMethod="Get"  />
+    <!--<AddButton CssClass="btn btn-primary btn-block" Text="Create My Account" Redirect="/loguin" RedirectMethod="Get"  />-->
+    <AddButton CssClass="btn btn-primary btn-block" Text="Create My Account" Redirect="http://localhost/dnn/Registrar/Verify" RedirectMethod="Get" />
 
      <Validate Type="Database" />
-
-
      <Validate Type="Action" />
+    </div>
 
-           <a href="#" class="my-button" id="linkkks">Buiscar el username!</a> 
     <jQueryReady>
     $('#' + Join.Password).pwstrength({
       ui: { showVerdictsInsideProgressBar: true }
@@ -110,162 +121,68 @@
 
     $('#' + Join.Firstname).closest('.form-group').hide();
     
-
-    /*$('#'+ Join.Username).blur(function(){
-    var $control = $(this);
-
-    $.ajax({
-      url: "http://localhost/dnn/DesktopModules/XModPro/Feed.aspx",
-          type: "POST",
-          dataType: "HTML",
-          data: {
-          "pid": 0 ,
-          "xfd": "JoinUE",
+    
+    
+    
+    $('#' + Join.Username).blur(function() {
+    	var $control = $(this);
+      var $warning = $('#username_exists');
+      CallFeed("Join_Username_Exists", $control, $warning);   
+    });
+    
+    $('#' + Join.Displayname).blur(function() {
+    	var $control = $(this);
+      var $warning = $('#displayname_exists');
+      CallFeed("Join_Displayname_Exists", $control, $warning);   
+    });
+    
+    $('#' + Join.EmailAddress).blur(function() {
+    	var $control = $(this);
+      var $warning = $('#email_exists');
+      CallFeed("Join_Email_Exists", $control, $warning);   
+    });
+    
+    function CallFeed(feed, $control, $warning) {
+    	$.ajax({
+      	url: '/DesktopModules/XModPro/Feed.aspx',
+        type: 'POST',
+        dataType: 'HTML',
+        data: {
+        	"pid": 0,
+          "xfd": feed,
           "x": $control.val()
-          },
-          success: function(data){
-            if(parseInt(data) !== 0){
-              console.log("The usernmae exists");
-              $('#username_exists').fadeIn('fast');
-            } else {
-              console.log("el usuario esta bien");
-              $('#username_exists').fadeOut('fast');
-
-            }
-          }
-    });
-  });*/
-
-  $('#' + Join.Username).blur(function() {
-    var $control = $(this);
-    var $warning = $('#username_exists');
-    CallFeed("JoinUE", $control, $warning);   
-  });
-    
-  $('#' + Join.Displayname).blur(function() {
-    var $control = $(this);
-    var $warning = $('#displayname_exists');
-    CallFeed("Join_Displayname_Exists", $control, $warning);   
-  });
-    
-  $('#' + Join.EmailAddress).blur(function() {
-    var $control = $(this);
-    var $warning = $('#email_exists');
-    CallFeed("Join_Email_Exists", $control, $warning);   
-  });
-    
-  function CallFeed(feed, $control, $warning) {
-    $.ajax({
-      url: '/DesktopModules/XModPro/Feed.aspx',
-      type: 'POST',
-      dataType: 'HTML',
-      data: {
-        "pid": 0,
-        "xfd": feed,
-        "x": $control.val()
-      },
+        },
    
-      success: function(data) {
-        if ( parseInt(data) !== 0 ) {
-          $warning.fadeIn('fast');                            
-        } else {
-          $warning.fadeOut('fast');
-        }
-      }   
-    });
-  }
-
-  $('form').submit(function() {
-    // Creating my variables but not assigning yet...
-    var usernameError, emailError, displaynameError;
-    
-    // Each variable below is either true or false based on the visibility of the selector...
-    usernameError = $('#username_exists').is(':visible');
-    emailError = $('#email_exists').is(':visible');
-    displaynameError = $('#displayname_exists').is(':visible');
-    
-    // If one or more of the errors are visible, we return false... This means the form won't submit.
-    // If all is good, allow the form to submit.
-    if ( usernameError || emailError || displaynameError ) {
-      return false;
-    } else {
-      return true;
-    }    
-  });
-
-  </jQueryReady>
-
-  <jQueryReady>
-    
-     $("#linkkks").click(function() {
-        var $control = $(this);
-        var username = $(".form-control").val();
-        alert("voy a buscar: " + username);
-        $.ajax({
-          url: "http://localhost/dnn/DesktopModules/XModPro/Feed.aspx",
-          type: "POST",
-          dataType: "HTML",
-          data: {
-          "pid": 0 ,
-          "xfd": "JoinUE",
-          "x": username
-          },
-          success: function(data){
-            console.log(data);
+        success: function(data) {
+        	if ( parseInt(data) !== 0 ) {
+          	$warning.fadeIn('fast');                            
+          } else {
+            $warning.fadeOut('fast');
           }
-        });
-       });
-      
+        }   
+      });
+    }
     
     
-    
- /*   
-  $(document).ready(function(){
-    $(document).on("click","#linkkks",function () {
-        var variable = $("#Username").val();
-        var nombre = "Juan";
-        alert("Hola "+variable);
+    $('form').submit(function() {
+    	var usernameError, emailError, displaynameError;
+    	
+    	usernameError = $('#username_exists').is(':visible');
+    	emailError = $('#email_exists').is(':visible');
+    	displaynameError = $('#displayname_exists').is(':visible');
+        
+    	if ( usernameError || emailError || displaynameError ) {
+      	return false;
+    	} else {
+    		return true;
+    	}    
     });
-});*/
+    
   </jQueryReady>
-  </div>
   
-     <AddUser
-      Approved="True|False"
-      City="string"
-      Country="string"
-      DisplayName="string"
-      Email="string"
-      ErrMsgDuplicateEmail="string"
-      ErrMsgDuplicateUser="string"
-      ErrMsgDuplicateUsername="string"
-      ErrMsgInvalidEmail="string"
-      ErrMsgInvalidPassword="string"
-      ErrMsgInvalidUsername="string"
-      FirstName="string"
-      LastName="string"
-      Password="string"
-      PostalCode="string"
-      Region="string"
-      RoleNames="comma-delimited list of DNN roles"
-      Street="string"
-      
-      Telephone="string"
-      Unit="string"
-      UpdatePasswordOnNextLogin="True|False"
-      Username="string"> 
-        <!-- (NOTE: Property tags are optional)
-				SendVerificationEmail="True|False"
-       
-        <Property Name="string" Value="string" />
-        ...Additional Property Tags as needed... -->
-    </AddUser>
-
-     <AddUser Email='[[EmailAddress]]' Username='[[Username]]' Password='[[Password]]' DisplayName='[[Displayname]]'></AddUser>
-
-     <Login Username='[[Username]]' Password='[[Password]]' RememberMe="True"></Login>
-   <Redirect Method="Get" Target="/loguin" />
-
-      <DateInput Id="Start" DataField="Start" DataType="datetime" Visible="False" Readonly="True" />
+  <AddUser Email='[[EmailAddress]]' Username='[[Username]]' Password='[[Password]]' DisplayName='[[Displayname]]'></AddUser>
+  <!--<Login Username='[[Username]]' Password='[[Password]]' RememberMe="True"></Login>-->
+  
+  <DateInput Id="Start" DataField="Start" DataType="datetime" Visible="False" Readonly="True" />
 
 </xmod:AddForm></AddItemTemplate></xmod:FormView>
